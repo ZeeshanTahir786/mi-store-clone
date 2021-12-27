@@ -4,6 +4,8 @@ import PreNavbar from "./components/preNavbar/preNavbar";
 import { BrowserRouter as Router } from "react-router-dom";
 import Slider from "./components/Slider/Slider";
 import data from "./data/data.json";
+import Offers from "./components/Offers/Offers";
+import Heading from "./components/Heading/Heading";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <PreNavbar />
       <Navbar />
       <Slider start={data.banner.start} />
+      <Offers offers={data.offer} />
+      <Heading text="Hello" />
     </Router>
   );
 }
