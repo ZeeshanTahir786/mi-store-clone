@@ -1,6 +1,5 @@
 import React from "react";
 import "../Navbar/Navbar.css";
-import { Link } from "react-router-dom";
 
 const logo = "https://i01.appmifile.com/webfile/globalimg/pandora/mi-logo.svg";
 const searchIcon = (

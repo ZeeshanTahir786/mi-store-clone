@@ -2,6 +2,7 @@ import React from "react";
 import "../Footer/Footer.css";
 import "../Footer/PreFooter.css";
 
+var currentTime = new Date();
 const repeatIcon = (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -192,7 +193,10 @@ const Footer = ({ footer }) => {
         </div>
       </div>
       <div className="footerBorder">
-        <div> Copyright © 2010 - 2021 Xiaomi. All Rights Reserved</div>
+        <div>
+          {" "}
+          {`Copyright © 2010 - ${currentTime.getFullYear()} Xiaomi. All Rights Reserved`}
+        </div>
       </div>
     </>
   );
