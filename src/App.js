@@ -39,7 +39,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/music"
+          path="/"
           element={
             <HotAccessories
               music={data.hotAccessories.music}

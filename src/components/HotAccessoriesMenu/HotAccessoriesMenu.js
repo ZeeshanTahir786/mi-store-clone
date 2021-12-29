@@ -5,7 +5,7 @@ import "../HotAccessoriesMenu/HotAccessoriesMenu.css";
 const HotAccessoriesMenu = () => {
   return (
     <div className="hot-accessories-menu">
-      <Link className="HotAccessoriesLink" to="/music">
+      <Link className="HotAccessoriesLink" to="/">
         Music Store
       </Link>
       <Link className="HotAccessoriesLink" to="/smartDevices">
