@@ -23,40 +23,25 @@ const NavOptions = ({
   const [accessoriesToggle, setAccessoriesToggle] = useState(false);
 
   useEffect(() => {
-    if (
-      window.location.pathname ===
-      "silly-kowalevski-4afdb5.netlify.app/miphones"
-    ) {
+    if (window.location.pathname === "/miphones") {
       return setMiPhoneToggle(true);
     }
-    if (
-      window.location.pathname ===
-      "silly-kowalevski-4afdb5.netlify.app/redmiphones"
-    ) {
+    if (window.location.pathname === "/redmiphones") {
       return setRedmiPhoneToggle(true);
     }
-    if (window.location.pathname === "silly-kowalevski-4afdb5.netlify.app/tv") {
+    if (window.location.pathname === "/tv") {
       return setTvToggle(true);
     }
-    if (
-      window.location.pathname === "silly-kowalevski-4afdb5.netlify.app/laptops"
-    ) {
+    if (window.location.pathname === "/laptops") {
       return setLaptopToggle(true);
     }
-    if (
-      window.location.pathname ===
-      "silly-kowalevski-4afdb5.netlify.app/lifestyle"
-    ) {
+    if (window.location.pathname === "/lifestyle") {
       return setFitnessToggle(true);
     }
-    if (
-      window.location.pathname === "silly-kowalevski-4afdb5.netlify.app/home"
-    ) {
+    if (window.location.pathname === "/home") {
       return setHomeToggle(true);
     }
-    if (
-      window.location.pathname === "silly-kowalevski-4afdb5.netlify.app/audio"
-    ) {
+    if (window.location.pathname === "/audio") {
       return setAudioToggle(true);
     }
 
