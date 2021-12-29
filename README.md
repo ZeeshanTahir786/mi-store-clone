@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project Deploy with [Netlify](https://silly-kowalevski-4afdb5.netlify.app/).
+This project Deploy with Netlify Site Link: [Deployment Link](https://silly-kowalevski-4afdb5.netlify.app/).
 
 ## Available Scripts
 
