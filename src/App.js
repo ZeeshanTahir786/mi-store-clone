@@ -11,12 +11,26 @@ import HotAccessoriesMenu from "./components/HotAccessoriesMenu/HotAccessoriesMe
 import HotAccessories from "./components/HotAccessoriesMenu/HotAccessories/HotAccessories";
 import ProductReviews from "./components/ProductReviews/ProductReviews";
 import Videos from "./components/Videos/Videos";
+import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
+import NavOptions from "./components/NavOptions/NavOptions";
 
 function App() {
   return (
     <Router>
       <PreNavbar />
       <Navbar />
+      <NavOptios
+        miPhones={data.miPhones}
+        redmiPhones={data.redmiPhones}
+        tv={data.tv}
+        laptop={data.laptop}
+        fitnessAndLifeStyle={data.fitnessAndLifeStyle}
+        home={data.home}
+        audio={data.audio}
+        accessories={data.accessories}
+      />
+
       <Slider start={data.banner.start} />
       <Offers offers={data.offer} />
       <Heading text="STAR PRODUCTS" />
@@ -80,6 +94,8 @@ function App() {
       <Heading text="VIDEOS" />
       <Videos videos={data.videos} />
       <Heading text="IN THE PRESS" />
+      <Banner banner={data.banner} />
+      <Footer footer={data.footer} />
     </Router>
   );
 }
